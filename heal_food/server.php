@@ -1,5 +1,4 @@
 <?php
-// ต้องใส่ "ชื่อตัวแปร" ที่เราตั้งใน Vercel (รูปที่ 18) ลงใน getenv ครับ
 $host = getenv('DB_HOST');
 $port = getenv('DB_PORT');
 $user = getenv('DB_USER');
